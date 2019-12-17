@@ -20,27 +20,9 @@ body {
     text-align: center;
 }
 
-.nav-articles-area {
-    text-align: center;
-}
-
-.nav-books-area {
-    text-align: center;
-}
-
-.nav-events-area {
-    text-align: center;
-}
-
-.nav-jobs-area {
-    text-align: center;
-}
-
-.nav-membership-area {
-    text-align: center;
-}
-
-.header-btn-area {
+.nav-articles-area, .nav-books-area, 
+.nav-events-area, .nav-jobs-area,
+.nav-membership-area, .header-btn-area{
     text-align: center;
 }
 
@@ -60,6 +42,10 @@ body {
     padding: 13px;
     border: 1px solid lightslategray;
     font-size: 20px;
+}
+
+.btn-topics-header:hover {
+    cursor: pointer;
 }
 
 /* <<<< LATEST ARTICLES SECTION >>>>> */
@@ -98,4 +84,61 @@ body {
   font-size: 45px;
   font-family: 'Ubuntu', sans-serif;
   margin: 100px auto;
+}
+
+.arrow-icon {
+    font-size: 40px !important;
+    margin: 0 auto 20px 70px;
+}
+
+.featured-article p:hover {
+    cursor: pointer;
+}
+
+/* <<<< NEWS SECTION >>>>> */
+.news {
+    font-family: 'Ubuntu', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.news > div {
+    margin-left: 70px;
+}
+
+.first-news-div > h6, .second-news-div > h6,
+.third-news-div > h6 {
+    margin: 40px auto 10px auto;
+}
+
+.first-news-div > h3, .second-news-div > h3, 
+.third-news-div > h3 {
+   font-size: 30px;
+   color: rgb(51, 51, 51);
+}
+
+.first-news-div > h5, .second-news-div > h5,
+.third-news-div > h5 {
+    font-size: 19px;
+    margin: 20px auto;
+}
+
+.first-news-div > h5 a, .second-news-div > h5 a,
+.third-news-div > h5 a{
+    color: #555;
+}
+
+.first-news-div > h5 a:hover, .second-news-div > h5 a:hover,
+.third-news-div > h5 a:hover{
+    color: black;
+}
+
+.first-news-div > p, .second-news-div > p,
+.third-news-div > p {
+    font-family: monospace !important;
+    font-size: 17px;
+}
+
+.news-arrow-icon {
+    margin: 20px auto 20px 0;
 }
