@@ -1,0 +1,64 @@
+/* <<<< BASIC SETTINGS >>>>> */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1400px;
+    min-width: 700px;
+}
+
+/* <<<< NAVIGATION HEADER SECTION >>>>> */
+ /* grid-areas */
+ .logo-area {
+    margin-left: 30px;
+    text-align: center;
+}
+
+.nav-articles-area {
+    text-align: center;
+}
+
+.nav-books-area {
+    text-align: center;
+}
+
+.nav-events-area {
+    text-align: center;
+}
+
+.nav-jobs-area {
+    text-align: center;
+}
+
+.nav-membership-area {
+    text-align: center;
+}
+
+.header-btn-area {
+    text-align: center;
+}
+
+.nav-header {
+    position: fixed;
+    top: 0;
+    height: 160px;
+    width: 100%;
+    padding-top: 45px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr 1.2fr;
+    grid-column-gap: 10px;
+    color: #555;
+    border: 2px solid grey;
+}
+
+.btn-topics-header {
+    width: 60%;
+    border-radius: 5px;
+    padding: 13px;
+    border: 1px solid lightslategray;
+    font-size: 20px;
+}
