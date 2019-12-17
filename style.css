@@ -6,8 +6,10 @@
 }
 
 body {
-    max-width: 1400px;
-    min-width: 700px;
+  position: relative; 
+  max-width: 1400px;
+  min-width: 700px;
+  color: #555;
 }
 
 /* <<<< NAVIGATION HEADER SECTION >>>>> */
@@ -43,15 +45,12 @@ body {
 }
 
 .nav-header {
-    position: fixed;
-    top: 0;
     height: 160px;
     width: 100%;
     padding-top: 45px;
     display: grid;
     grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr 1.2fr;
     grid-column-gap: 10px;
-    color: #555;
     border: 2px solid grey;
 }
 
@@ -61,4 +60,42 @@ body {
     padding: 13px;
     border: 1px solid lightslategray;
     font-size: 20px;
+}
+
+/* <<<< LATEST ARTICLES SECTION >>>>> */
+
+.latest-articles-center-text {
+  position: relative;
+  height: 0;
+  top: 50px;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+}
+
+.latest-articles-center-text span {
+  background-color: white;
+  border: 2px solid gray;
+}
+
+.latest-articles-center-text span:last-child{
+  border-top: none;
+} 
+
+.latest-articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 950px;
+}
+
+.featured-article {
+  border: 1px solid gray;
+}
+
+.featured-article h1 {
+  width: 80%;
+  font-size: 45px;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 100px auto;
 }
