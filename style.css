@@ -211,6 +211,16 @@ body {
   border-radius: 10px;
 }
 
+.membership-div a,
+.new-on-smashing-div a {
+  color:#555;
+}
+
+.membership-div a:hover,
+.new-on-smashing-div a:hover {
+  color: black;
+}
+
 .empty-div {
   text-align: center;
 }
