@@ -1,12 +1,12 @@
 /* <<<< BASIC SETTINGS >>>>> */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  position: relative; 
+  position: relative;
   max-width: 1400px;
   min-width: 700px;
   color: #555;
@@ -14,38 +14,41 @@ body {
 
 /* <<<< NAVIGATION HEADER SECTION >>>>> */
 
- /* grid-areas */
- .logo-area {
-    margin-left: 30px;
-    text-align: center;
+/* grid-areas */
+.logo-area {
+  margin-left: 30px;
+  text-align: center;
 }
 
-.nav-articles-area, .nav-books-area, 
-.nav-events-area, .nav-jobs-area,
-.nav-membership-area, .header-btn-area{
-    text-align: center;
+.nav-articles-area,
+.nav-books-area,
+.nav-events-area,
+.nav-jobs-area,
+.nav-membership-area,
+.header-btn-area {
+  text-align: center;
 }
 
 .nav-header {
-    height: 160px;
-    width: 100%;
-    padding-top: 45px;
-    display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr 1.2fr;
-    grid-column-gap: 10px;
-    border: 2px solid grey;
+  height: 160px;
+  width: 100%;
+  padding-top: 45px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr 1.2fr;
+  grid-column-gap: 10px;
+  border: 2px solid grey;
 }
 
 .btn-topics-header {
-    width: 60%;
-    border-radius: 5px;
-    padding: 13px;
-    border: 1px solid lightslategray;
-    font-size: 20px;
+  width: 60%;
+  border-radius: 5px;
+  padding: 13px;
+  border: 1px solid lightslategray;
+  font-size: 20px;
 }
 
 .btn-topics-header:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* <<<< LATEST ARTICLES SECTION >>>>> */
@@ -64,9 +67,9 @@ body {
   border: 2px solid gray;
 }
 
-.latest-articles-center-text span:last-child{
+.latest-articles-center-text span:last-child {
   border-top: none;
-} 
+}
 
 .latest-articles {
   display: grid;
@@ -87,58 +90,127 @@ body {
 }
 
 .arrow-icon {
-    font-size: 40px !important;
-    margin: 0 auto 20px 70px;
+  font-size: 40px !important;
+  margin: 0 auto 20px 70px;
 }
 
 .featured-article p:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* <<<< NEWS SECTION >>>>> */
 .news {
-    font-family: 'Ubuntu', sans-serif;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+  display: grid;
+  height: 500px;
+  font-family: 'Ubuntu', sans-serif;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
+
 .news > article {
-    margin-left: 70px;
+  margin-left: 70px;
 }
 
-.first-news-div > h6, .second-news-div > h6,
-.third-news-div > h6 {
-    margin: 40px auto 10px auto;
+.first-news-div > h6,
+.second-news-div > h6,
+.third-news-div > h6,
+.forth-news-div > h6,
+.fifth-news-div > h6,
+.sixth-news-div > h6,
+.seventh-news-div > h6 {
+  margin: 40px auto 10px auto;
 }
 
-.first-news-div > h3, .second-news-div > h3, 
-.third-news-div > h3 {
-   font-size: 30px;
-   color: rgb(51, 51, 51);
+.first-news-div > h3,
+.second-news-div > h3,
+.third-news-div > h3,
+.forth-news-div > h3,
+.fifth-news-div > h3,
+.sixth-news-div > h3,
+.seventh-news-div > h3 {
+  font-size: 30px;
+  color: rgb(51, 51, 51);
 }
 
-.first-news-div > h5, .second-news-div > h5,
-.third-news-div > h5 {
-    font-size: 19px;
-    margin: 20px auto;
+.first-news-div > h5,
+.second-news-div > h5,
+.third-news-div > h5,
+.forth-news-div > h5,
+.fifth-news-div > h5,
+.sixth-news-div > h5,
+.seventh-news-div > h5 {
+  font-size: 19px;
+  margin: 20px auto;
 }
 
-.first-news-div > h5 a, .second-news-div > h5 a,
-.third-news-div > h5 a{
-    color: #555;
+.first-news-div > h5 a,
+.second-news-div > h5 a,
+.third-news-div > h5 a,
+.forth-news-div > h5 a,
+.fifth-news-div > h5 a,
+.sixth-news-div > h5 a,
+.seventh-news-div > h5 a {
+  color: #555;
 }
 
-.first-news-div > h5 a:hover, .second-news-div > h5 a:hover,
-.third-news-div > h5 a:hover{
-    color: black;
+.first-news-div > h5 a:hover,
+.second-news-div > h5 a:hover,
+.third-news-div > h5 a:hover,
+.forth-news-div > h5 a:hover,
+.fifth-news-div > h5 a:hover,
+.sixth-news-div > h5 a:hover,
+.seventh-news-div > h5 a:hover {
+  color: black;
 }
 
-.first-news-div > p, .second-news-div > p,
-.third-news-div > p {
+.first-news-div > p,
+.second-news-div > p,
+.third-news-div > p,
+.forth-news-div > p,
+.fifth-news-div > p,
+.sixth-news-div > p,
+.seventh-news-div > p {
     font-family: monospace !important;
-    font-size: 17px;
+  font-size: 17px;
 }
 
 .news-arrow-icon {
-    margin: 20px auto 20px 0;
+  margin: 20px auto 20px 0;
+}
+
+.membership-div,
+.new-on-smashing-div {
+  grid-column: 2 / 4;
+  height: 600px;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+.membership-div h1,
+.new-on-smashing-div h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 150px;
+}
+
+.membership-div p,
+.new-on-smashing-div p {
+  width: 70%;
+  margin: 40px auto 0 auto;
+  font-size: 24px;
+}
+
+.membership-div button,
+.new-on-smashing-div button {
+  width: 280px;
+  height: 60px;
+  font-size: 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.empty-div {
+  text-align: center;
 }
