@@ -20,15 +20,9 @@ body {
   text-align: center;
 }
 
-.nav-articles-area,
-.nav-books-area,
-.nav-events-area,
-.nav-jobs-area,
-.nav-membership-area,
-.header-btn-area {
+.centre-a-text {
   text-align: center;
 }
-
 .nav-header {
   height: 160px;
   width: 100%;
@@ -124,69 +118,35 @@ body {
   margin-left: 70px;
 }
 
-.first-news-div > h6,
-.second-news-div > h6,
-.third-news-div > h6,
-.forth-news-div > h6,
-.fifth-news-div > h6,
-.sixth-news-div > h6,
-.seventh-news-div > h6 {
+.news-div-h6-margin {
   margin: 40px auto 10px auto;
 }
 
-.first-news-div > h3,
-.second-news-div > h3,
-.third-news-div > h3,
-.forth-news-div > h3,
-.fifth-news-div > h3,
-.sixth-news-div > h3,
-.seventh-news-div > h3 {
+.news-article h3 {
   font-size: 30px;
   color: rgb(51, 51, 51);
 }
 
-.first-news-div > h5,
-.second-news-div > h5,
-.third-news-div > h5,
-.forth-news-div > h5,
-.fifth-news-div > h5,
-.sixth-news-div > h5,
-.seventh-news-div > h5 {
+.news-article h5 {
   font-size: 19px;
   margin: 20px auto;
 }
-
-.first-news-div > h5 a,
-.second-news-div > h5 a,
-.third-news-div > h5 a,
-.forth-news-div > h5 a,
-.fifth-news-div > h5 a,
-.sixth-news-div > h5 a,
-.seventh-news-div > h5 a {
+.news-article > h5 a {
   color: #555;
 }
 
-.first-news-div > h5 a:hover,
-.second-news-div > h5 a:hover,
-.third-news-div > h5 a:hover,
-.forth-news-div > h5 a:hover,
-.fifth-news-div > h5 a:hover,
-.sixth-news-div > h5 a:hover,
-.seventh-news-div > h5 a:hover {
+.news-article> h5 a:hover {
   color: black;
 }
 
-.first-news-div > p,
-.second-news-div > p,
-.third-news-div > p,
-.forth-news-div > p,
-.fifth-news-div > p,
-.sixth-news-div > p,
-.seventh-news-div > p {
-    font-family: monospace !important;
+.news-article p {
+  font-family: monospace !important;
   font-size: 17px;
 }
 
+.seventh-news-div {
+  margin-left: 70px;
+}
 .news-arrow-icon {
   margin: 20px auto 20px 0;
 }
@@ -236,4 +196,196 @@ body {
 
 .empty-div {
   text-align: center;
+}
+
+.seperate-sections {
+  height: 6em;
+}
+
+/* <<<< JUST RELEASD BOOKS SECTION >>>>>>> */
+.just-released {
+  text-align: center;
+  height: 500px;
+}
+
+.just-released > h2 {
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 1.25em;
+  font-size: 2.5em;
+}
+
+.just-released > h3 {
+  margin: 3.125em auto;
+}
+
+.just-released > p {
+  margin: 0.6em auto;
+  font-size: 1.56em;
+}
+
+.btn-just-released {
+  padding: 0.81em;
+  border-radius: 6px;
+  border: 2px solid lightslategrey;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.25em;
+}
+
+.btn-just-released:hover {
+  cursor: pointer;
+}
+
+.book-dummy-div {
+  position: relative;
+  margin: 5px auto;
+  height: 12.5em;
+  width: 11.3em;
+  background: grey;
+  color: #fff;
+  border-right: 2px solid #fff;
+}
+
+.book-dummy-text {
+  position: relative;
+  font-size: 20px;
+  top: 80px;
+} 
+
+/* <<<<< PERSON OF THE WEEK SECTION >>>>>> */
+
+.item-1, .item-2, .item-3,
+.item-4, .item-5, .item-6,
+.item-7 {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.item-1 {
+  grid-area: header;
+}
+
+.item-2 {
+  grid-area: first-left-side;  
+}
+
+.item-3 {
+  grid-area: first-right-side;
+}
+
+.item-4 {
+  grid-area: second-left-side;
+ }
+
+.item-5 {
+  grid-area: second-right-side;
+}
+
+.item-6 {
+  grid-area: third-left-side;
+}
+
+.item-7 {
+  grid-area: third-right-side; 
+}
+
+.week-person-section {
+  height: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "header header"
+    "first-left-side first-right-side"
+    "second-left-side second-right-side"
+    "third-left-side third-right-side";
+  grid-gap: 20px;
+}
+
+.make-pic {
+  width: 100%;
+  height: 100px;
+}
+
+.photo {
+  background: grey;
+  height: 6em;
+  width: 6em;
+  margin: 65px auto auto auto;
+  border-radius: 5px;
+  -webkit-transform: rotate(20deg);
+   -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+     -o-transform: rotate(20deg);
+        transform: rotate(20deg);
+}
+
+.item-1 > article h3 {
+  margin: 2em auto 1em 0;
+}
+
+.item-1 > article p {
+  font-family: monospace !important;
+  font-size: 15px;
+}
+
+.items-article-h4, .items-article-h2 {
+  font-family: 'ubuntu', sans-serif;
+  font-size: 19px;
+  margin: 20px auto 10px 0;
+}
+
+.items-article-h2 {
+  font-size: 23px;
+}
+
+.items-article-p {
+  font-family: monospace !important;
+  font-size: 15px;
+}
+
+.smaller-photos {
+  height: 50px;
+  width: 50px;
+  background: grey;
+  border: 2px solid grey;
+  margin: 80px auto auto auto;
+  border-radius: 5px;
+  -webkit-transform: rotate(20deg);
+   -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+     -o-transform: rotate(20deg);
+        transform: rotate(20deg);
+}
+
+
+/* <<< MEDIA QUERIES >>>>> */
+
+@media all and (max-width: 700px) {
+  .week-person-section {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header"
+    "first-left-side"
+    "first-right-side"
+    "second-left-side"
+    "second-right-side"
+    "third-left-side"
+    "third-right-side";
+    grid-gap: 0;
+  }
+
+  .photo {
+    margin: 80px 10px;
+  }
+
+  .item-1 > article p {
+    margin-bottom: 10px;
+  }
+
+  .smaller-photos {
+    margin: 60px auto auto auto;
+  }
+
+  .items-article-p {
+    margin-bottom: 20px;
+  }
 }
