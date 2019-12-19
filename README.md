@@ -1,6 +1,6 @@
 # Smashing-Magazine-heat-map
 
-The goal of this project is to create a grayscale heat map for the [Smashing Magazine home page](https://www.smashingmagazine.com/) as training for stating the visual hierarchy of its elements, as also as trying the utilization of google fonts
+The goal of this project is to create a grayscale heat map for the [Smashing Magazine home page](https://www.smashingmagazine.com/) as training for stating the visual hierarchy of its elements, as also as trying the utilization of Google fonts
 
 ![Smashing-Magazine-heatmap](https://user-images.githubusercontent.com/53324035/71204144-689b2880-226d-11ea-9e4a-65f33a510af9.png)
 
