@@ -83,7 +83,7 @@ body {
   border: 1px solid gray;
 }
 
-.featured-article h1 {
+.featured-article h2 {
   width: 80%;
   font-size: 45px;
   font-family: 'Ubuntu', sans-serif;
@@ -438,7 +438,7 @@ body {
   padding: 30px;
 }
 
-.guides-article h1 {  
+.guides-article h2 {  
   font-size: 30px;
 }
 
@@ -483,7 +483,7 @@ body {
   border-radius: 10px;
 }
 
-.newsletter h1{
+.newsletter h2 {
   font: 40px 'Ubuntu', sans-serif;
   margin: 40px 0;
 }
