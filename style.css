@@ -18,6 +18,8 @@ body {
 .logo-area {
   margin-left: 30px;
   text-align: center;
+  color: white;
+  background-color: dimgray;
 }
 
 .centre-a-text {
@@ -57,7 +59,8 @@ body {
 }
 
 .latest-articles-center-text span {
-  background-color: white;
+  color: white;
+  background-color: dimgray;
   border: 2px solid gray;
 }
 
@@ -67,6 +70,7 @@ body {
 
 .latest-articles {
   display: grid;
+  background-color: silver;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   height: 950px;
@@ -115,6 +119,7 @@ body {
 .news > article,
 .latest-news > article,
 .seventh-news-div {
+  background-color: lightgray;
   margin-left: 70px;
 }
 
@@ -311,11 +316,11 @@ body {
   width: 6em;
   margin: 65px auto auto auto;
   border-radius: 5px;
-  -webkit-transform: rotate(20deg);
-   -moz-transform: rotate(20deg);
-    -ms-transform: rotate(20deg);
-     -o-transform: rotate(20deg);
-        transform: rotate(20deg);
+  -webkit-transform: rotate(-20deg);
+   -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+     -o-transform: rotate(-20deg);
+        transform: rotate(-20deg);
 }
 
 .item-1 > article h3 {
@@ -349,11 +354,11 @@ body {
   border: 2px solid grey;
   margin: 80px auto auto auto;
   border-radius: 5px;
-  -webkit-transform: rotate(20deg);
-   -moz-transform: rotate(20deg);
-    -ms-transform: rotate(20deg);
-     -o-transform: rotate(20deg);
-        transform: rotate(20deg);
+  -webkit-transform: rotate(-20deg);
+   -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+     -o-transform: rotate(-20deg);
+        transform: rotate(-20deg);
 }
 
 
@@ -362,14 +367,14 @@ body {
 @media all and (max-width: 700px) {
   .week-person-section {
     grid-template-columns: 1fr;
-    grid-template-areas: 
-    "header"
-    "first-left-side"
-    "first-right-side"
-    "second-left-side"
-    "second-right-side"
-    "third-left-side"
-    "third-right-side";
+    grid-template-areas:
+      "header"
+      "first-left-side"
+      "first-right-side"
+      "second-left-side"
+      "second-right-side"
+      "third-left-side"
+      "third-right-side";
     grid-gap: 0;
   }
 
@@ -388,4 +393,170 @@ body {
   .items-article-p {
     margin-bottom: 20px;
   }
+}
+
+.featured-book {
+  padding: 30px 0 30px 60px;
+  font-family: 'Ubuntu', sans-serif;
+  border: 1px solid gray;
+}
+
+.featured-book p {
+  font-size: 19px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.featured-book h1 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.featured-book-text {
+  width: 60%;
+  font-size: 20px !important;
+}
+
+.featured-book button {
+  font-size: 25px;
+  width: 300px;
+  height: 70px;
+  margin: 30px 0;
+  border-radius: 10px;
+}
+
+.guides-article {
+  font-family: 'Ubuntu', sans-serif;
+  padding: 30px;
+}
+
+.guides-article h1 {  
+  font-size: 30px;
+}
+
+.guides-article ul{
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.guides-article ul li{
+  margin-top: 20px;
+}
+
+.guides-article::before{
+  content: "GUIDES ";
+}
+
+.guides-article a {
+  color: gray;
+}
+
+.guides-article a:hover {
+  color: black;
+}
+
+.guides-article h1 {
+  margin-top: 15px;
+}
+
+.guides {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.newsletter {
+  height: 600px;
+  font: 20px 'Ubuntu', sans-serif;
+  text-align: center;
+  grid-column: 2 / 4;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.newsletter h1{
+  font: 40px 'Ubuntu', sans-serif;
+  margin: 40px 0;
+}
+
+.newsletter p {
+  font: 20px 'Ubuntu', sans-serif;
+  margin-bottom: 150px;
+}
+
+.subscribe-btn {
+  width: 200px;
+  height: 60px;
+  font: 30px !important;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.mail-input {
+  width: 300px;
+  height: 60px;
+  border: 1px solid grey;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px
+}
+
+.mail-input:focus {
+  outline: none;
+}
+
+footer {
+  font: 20px 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+footer h3 {
+  margin: 40px 0;
+}
+
+footer p{
+  font-size: 15px;
+  width: 35%;
+  line-height: 30px;
+  margin: 20px auto;
+}
+
+footer p span {
+  font-style: italic;
+}
+
+.footer-list {
+  list-style: disc;
+  text-align: center;
+  padding: 30px 50px 30px 50px;
+  margin-top: 40px auto;
+}
+
+.footer-list li {
+  display: inline;
+  padding: 10px;
+  font-size: 20px;
+}
+
+footer a {
+  color: gray;
+}
+
+footer a:hover {
+  color: black;
+}
+
+.footer-nav-bar {
+  text-align: center;
+  font-size: 16px;
+}
+
+.footer-nav-bar ul{
+  width: 40%;
+  height: 150px;
+  line-height: 50px;;
+  margin: 40px auto;
+}
+
+.footer-nav-bar ul li {
+  display: inline;
+  margin: 10px 10px 30px 10px;
 }
