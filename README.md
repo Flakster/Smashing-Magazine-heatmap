@@ -2,9 +2,11 @@
 
 The goal of this project is to create a grayscale heat map for the [Smashing Magazine home page](https://www.smashingmagazine.com/) as training for stating the visual hierarchy of its elements, as also as trying the utilization of Google fonts
 
+
+## Preview
 ![Smashing-Magazine-heatmap](https://user-images.githubusercontent.com/53324035/71204144-689b2880-226d-11ea-9e4a-65f33a510af9.png)
 
-## Watch a live version [here](https://rawcdn.githack.com/Flakster/Smashing-Magazine-heatmap/7b27544716adbc639816c255c60c1053a1e72791/index.html)
+## Live Demo [here](https://rawcdn.githack.com/Flakster/Smashing-Magazine-heatmap/7b27544716adbc639816c255c60c1053a1e72791/index.html)
 
 ## Getting Started
 
@@ -19,7 +21,7 @@ To get a local copy of this project up and running follow these simple steps:
 
   * HTML
   * CSS
-  * Google fonts
+  * [Google fonts](https://fonts.google.com/)
   
 ## Validators
 
