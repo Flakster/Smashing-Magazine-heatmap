@@ -32,6 +32,7 @@ body {
   display: grid;
   grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr 1.2fr;
   grid-column-gap: 10px;
+  background-color: lightgray;
   border: 2px solid grey;
 }
 
@@ -39,6 +40,7 @@ body {
   width: 60%;
   border-radius: 5px;
   padding: 13px;
+  background-color: lightgray;
   border: 1px solid lightslategray;
   font-size: 20px;
 }
@@ -62,6 +64,7 @@ body {
   color: white;
   background-color: dimgray;
   border: 2px solid gray;
+  padding: 5px;
 }
 
 .latest-articles-center-text span:last-child {
@@ -161,6 +164,8 @@ body {
   grid-column: 2 / 4;
   height: 600px;
   text-align: center;
+  color: white;
+  background-color: dimgray;
   border: 1px solid grey;
   border-radius: 10px;
   margin-left: 150px;
@@ -211,6 +216,7 @@ body {
 .just-released {
   text-align: center;
   height: 500px;
+  background-color: ghostwhite;
 }
 
 .just-released > h2 {
@@ -258,12 +264,12 @@ body {
 
 /* <<<<< PERSON OF THE WEEK SECTION >>>>>> */
 
-.item-1, .item-2, .item-3,
-.item-4, .item-5, .item-6,
-.item-7 {
+.community-article {
   display: grid;
   grid-template-columns: 1fr 4fr;
+  background-color: gainsboro;
 }
+
 .item-1 {
   grid-area: header;
 }
@@ -398,10 +404,11 @@ body {
 .featured-book {
   padding: 30px 0 30px 60px;
   font-family: 'Ubuntu', sans-serif;
+  background-color: silver;
   border: 1px solid gray;
 }
 
-.featured-book p {
+.over-header {
   font-size: 19px;
   margin-top: 25px;
   margin-bottom: 15px;
@@ -427,6 +434,7 @@ body {
 
 .guides-article {
   font-family: 'Ubuntu', sans-serif;
+  background-color: lightgray;
   padding: 30px;
 }
 
@@ -469,7 +477,9 @@ body {
   font: 20px 'Ubuntu', sans-serif;
   text-align: center;
   grid-column: 2 / 4;
-  border: 1px solid grey;
+  color: white;
+  background-color: gray;
+  border: 1px solid gray;
   border-radius: 10px;
 }
 
@@ -506,6 +516,7 @@ body {
 footer {
   font: 20px 'Ubuntu', sans-serif;
   text-align: center;
+  background-color: lightgray;
 }
 
 footer h3 {
