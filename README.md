@@ -6,7 +6,8 @@ The goal of this project is to create a grayscale heat map for the [Smashing Mag
 ## Preview
 ![Smashing-Magazine-heatmap](https://user-images.githubusercontent.com/53324035/71204144-689b2880-226d-11ea-9e4a-65f33a510af9.png)
 
-## Live Demo [here](https://rawcdn.githack.com/Flakster/Smashing-Magazine-heatmap/7b27544716adbc639816c255c60c1053a1e72791/index.html)
+## Live Demo 
+ Hosted [here](https://rawcdn.githack.com/Flakster/Smashing-Magazine-heatmap/4368ba4911c39f6a7323c7bc1a324a4e48f4d0c3/index.html) with love from [Githack](https://raw.githack.com/)
 
 ## Getting Started
 
