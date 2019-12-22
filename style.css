@@ -1,0 +1,602 @@
+/* <<<< BASIC SETTINGS >>>>> */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  max-width: 1400px;
+  min-width: 700px;
+  color: #555;
+}
+
+footer a {
+  color: gray;
+}
+
+a:hover {
+  color: black;
+}
+
+/* <<<< NAVIGATION HEADER SECTION >>>>> */
+
+/* grid-areas */
+.logo-area {
+  margin-left: 30px;
+  text-align: center;
+  color: white;
+  background-color: dimgray;
+}
+
+.centre-a-text {
+  text-align: center;
+}
+
+.nav-header {
+  height: 160px;
+  width: 100%;
+  padding-top: 45px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr 1.2fr;
+  grid-column-gap: 10px;
+  background-color: lightgray;
+  border: 2px solid grey;
+}
+
+.btn-topics-header {
+  width: 60%;
+  border-radius: 5px;
+  padding: 13px;
+  background-color: lightgray;
+  border: 1px solid lightslategray;
+  font-size: 20px;
+}
+
+.btn-topics-header:hover {
+  cursor: pointer;
+}
+
+footer {
+  font: 20px 'Ubuntu', sans-serif;
+  text-align: center;
+  background-color: lightgray;
+}
+
+footer h3 {
+  margin: 40px 0;
+}
+
+footer p {
+  font-size: 15px;
+  width: 35%;
+  line-height: 30px;
+  margin: 20px auto;
+}
+
+footer p span {
+  font-style: italic;
+}
+
+/* <<<< LATEST ARTICLES SECTION >>>>> */
+
+.latest-articles {
+  display: grid;
+  background-color: silver;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 950px;
+}
+
+.latest-articles-center-text {
+  position: relative;
+  height: 0;
+  top: 50px;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+}
+
+.latest-articles-center-text span {
+  color: white;
+  background-color: dimgray;
+  border: 2px solid gray;
+  padding: 5px;
+}
+
+.latest-articles-center-text span:last-child {
+  border-top: none;
+}
+
+.featured-article {
+  border: 1px solid gray;
+}
+
+.featured-article h2 {
+  width: 80%;
+  font-size: 45px;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 100px auto;
+}
+
+.arrow-icon {
+  font-size: 40px !important;
+  margin: 0 auto 20px 70px;
+}
+
+.news-article p {
+  font-family: monospace !important;
+  font-size: 17px;
+}
+
+/* <<<< NEWS SECTION >>>>> */
+.news,
+.latest-news {
+  display: grid;
+  min-height: 500px;
+  width: 100%;
+  font-family: 'Ubuntu', sans-serif;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  background: #fff;
+}
+
+.membership-section,
+.new-smashingtv-section {
+  display: grid;
+  height: 500px;
+  font-family: 'Ubuntu', sans-serif;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  margin-bottom: 100px;
+}
+
+.news > article,
+.latest-news > article,
+.seventh-news-div {
+  background-color: lightgray;
+  margin-left: 70px;
+}
+
+.news-div-h6-margin {
+  margin: 40px auto 10px auto;
+}
+
+.news-article h3 {
+  font-size: 30px;
+  color: rgb(51, 51, 51);
+}
+
+.news-article h5 {
+  font-size: 19px;
+  margin: 20px auto;
+}
+
+.membership-div a,
+.new-on-smashing-div a {
+  color: #555;
+}
+
+.guides-article a {
+  color: gray;
+}
+
+.news-article > h5 a {
+  color: #555;
+}
+
+.seventh-news-div {
+  margin-left: 70px;
+}
+
+.news-arrow-icon {
+  margin: 20px auto 20px 0;
+}
+
+.membership-div,
+.new-on-smashing-div {
+  grid-column: 2 / 4;
+  height: 600px;
+  text-align: center;
+  color: white;
+  background-color: dimgray;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: auto 50px;
+}
+
+.membership-div h1,
+.new-on-smashing-div h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 150px;
+}
+
+.membership-div p,
+.new-on-smashing-div p {
+  width: 70%;
+  margin: 40px auto 0 auto;
+  font-size: 24px;
+}
+
+.membership-div button,
+.new-on-smashing-div button {
+  width: 280px;
+  height: 60px;
+  font-size: 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.empty-div {
+  text-align: center;
+}
+
+.seperate-sections {
+  height: 6em;
+}
+
+/* <<<< JUST RELEASD BOOKS SECTION >>>>>>> */
+.just-released {
+  text-align: center;
+  height: 500px;
+  background-color: ghostwhite;
+}
+
+.just-released > h2 {
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 1.25em;
+  font-size: 2.5em;
+}
+
+.just-released > h3 {
+  margin: 3.125em auto;
+}
+
+.just-released > p {
+  margin: 0.6em auto;
+  font-size: 1.56em;
+}
+
+.btn-just-released {
+  padding: 0.81em;
+  border-radius: 6px;
+  border: 2px solid lightslategrey;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.25em;
+}
+
+.btn-just-released:hover {
+  cursor: pointer;
+}
+
+.book-dummy-div {
+  position: relative;
+  margin: 5px auto;
+  height: 12.5em;
+  width: 11.3em;
+  background: grey;
+  color: #fff;
+  border-right: 2px solid #fff;
+}
+
+.book-dummy-text {
+  position: relative;
+  font-size: 20px;
+  top: 80px;
+}
+
+/* <<<<< PERSON OF THE WEEK SECTION >>>>>> */
+
+.community-article {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  background-color: gainsboro;
+}
+
+.item-1 {
+  grid-area: header;
+}
+
+.item-2 {
+  grid-area: first-left-side;
+}
+
+.item-3 {
+  grid-area: first-right-side;
+}
+
+.item-4 {
+  grid-area: second-left-side;
+}
+
+.item-5 {
+  grid-area: second-right-side;
+}
+
+.item-6 {
+  grid-area: third-left-side;
+}
+
+.item-7 {
+  grid-area: third-right-side;
+}
+
+.week-person-section {
+  min-height: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header"
+    "first-left-side first-right-side"
+    "second-left-side second-right-side"
+    "third-left-side third-right-side";
+  grid-gap: 20px;
+  margin-bottom: 10px;
+}
+
+.make-pic {
+  width: 100%;
+  height: 100px;
+}
+
+.photo {
+  background: grey;
+  height: 6em;
+  width: 6em;
+  margin: 65px auto auto auto;
+  border-radius: 5px;
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+
+.item-1 > article h3 {
+  margin: 2em auto 1em 0;
+}
+
+.newsletter p {
+  font: 20px 'Ubuntu', sans-serif;
+  margin-bottom: 150px;
+}
+
+.item-1 > article p {
+  font-family: monospace !important;
+  font-size: 15px;
+}
+
+.items-article-h4,
+.items-article-h2 {
+  font-family: 'ubuntu', sans-serif;
+  font-size: 19px;
+  margin: 20px auto 10px 0;
+}
+
+.items-article-h2 {
+  font-size: 23px;
+}
+
+.items-article-p {
+  font-family: monospace !important;
+  font-size: 15px;
+}
+
+.smaller-photos {
+  height: 50px;
+  width: 50px;
+  background: grey;
+  border: 2px solid grey;
+  margin: 80px auto auto auto;
+  border-radius: 5px;
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+
+/* <<< FEATURED BOOKS SECTION >>>> */
+.featured-book {
+  margin: 10px auto 30px 0;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: silver;
+  border: 1px solid gray;
+  min-height: 350px;
+}
+
+.over-header {
+  font-size: 19px;
+  margin: 25px auto 15px 60px;
+}
+
+.featured-book h2 {
+  font-size: 50px;
+  margin: 25px auto 25px 60px;
+}
+
+.featured-book-text {
+  width: 60%;
+  font-size: 20px !important;
+  margin-left: 60px;
+}
+
+.featured-book button {
+  font-size: 25px;
+  width: 300px;
+  height: 70px;
+  margin: 30px auto 30px 60px;
+  border-radius: 10px;
+}
+
+/* <<<< GUIDES SECTION >>>>. */
+.guides {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.guides-article {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: lightgray;
+  padding: 30px;
+}
+
+.guides-article h2 {
+  font-size: 30px;
+}
+
+.guides-article ul {
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.footer-list li {
+  display: inline;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.guides-article ul li {
+  margin-top: 20px;
+}
+
+.guides-article::before {
+  content: "GUIDES ";
+}
+
+.guides-article h1 {
+  margin-top: 15px;
+}
+
+.newsletter {
+  height: 600px;
+  font: 20px 'Ubuntu', sans-serif;
+  text-align: center;
+  grid-column: 2 / 4;
+  color: white;
+  background-color: gray;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.newsletter h2 {
+  font: 40px 'Ubuntu', sans-serif;
+  margin: 40px 0;
+}
+
+.subscribe-btn {
+  width: 200px;
+  height: 60px;
+  font: 30px !important;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.mail-input {
+  width: 300px;
+  height: 60px;
+  border: 1px solid grey;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.mail-input:focus {
+  outline: none;
+}
+
+.footer-list {
+  list-style: disc;
+  text-align: center;
+  padding: 30px 50px 30px 50px;
+  margin-top: 40px auto;
+}
+
+.footer-nav-bar {
+  text-align: center;
+  font-size: 16px;
+}
+
+.footer-nav-bar ul {
+  width: 40%;
+  height: 150px;
+  line-height: 50px;
+  margin: 40px auto;
+}
+
+.footer-nav-bar ul li {
+  display: inline;
+  margin: 10px 10px 30px 10px;
+}
+
+.featured-article p:hover {
+  cursor: pointer;
+}
+
+/* <<< MEDIA QUERIES >>>>> */
+
+@media all and (max-width: 700px) {
+  /* news section */
+  .news,
+  .latest-news {
+    grid-template-columns: 1fr;
+    background: #fff;
+    margin-top: 200px;
+  }
+
+  .news-article h3,
+  .news-article h5,
+  .news-article p,
+  .news-article h6 {
+    margin: 5px 10px;
+  }
+
+  .week-person-section {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "first-left-side"
+      "first-right-side"
+      "second-left-side"
+      "second-right-side"
+      "third-left-side"
+      "third-right-side";
+    grid-gap: 0;
+  }
+
+  .photo {
+    margin: 80px 10px;
+  }
+
+  .item-1 > article p {
+    margin-bottom: 10px;
+  }
+
+  .smaller-photos {
+    margin: 60px auto auto auto;
+  }
+
+  .items-article-p {
+    margin-bottom: 20px;
+  }
+}
+
+/* MEDIA WIDTH 700PX-MIN, MAX-WIDTH-900PX */
+
+@media (min-width: 700px) and (max-width: 900px) {
+  /* news section */
+  .news,
+  .latest-news {
+    grid-template-columns: 1fr 1fr;
+    background: #fff;
+  }
+
+  .news-article h3,
+  .news-article h5,
+  .news-article p,
+  .news-article h6 {
+    margin: 5px 10px;
+  }
+}

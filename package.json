@@ -1,0 +1,25 @@
+{
+  "name": "smashing-magazine-heatmap",
+  "version": "1.0.0",
+  "description": "This a basic html/css remake of the popular smashingmagazine.com website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stylelint": "npx stylelint /Users/hp/Desktop/microverse/Smashing-Magazine-heatmap/style.css",
+    "stylelint-fix": "npx stylelint /Users/hp/Desktop/microverse/Smashing-Magazine-heatmap/style.css --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flakster/Smashing-Magazine-heatmap.git"
+  },
+  "author": "Carlos Santamaria and Ezaka Alfred",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flakster/Smashing-Magazine-heatmap/issues"
+  },
+  "homepage": "https://github.com/Flakster/Smashing-Magazine-heatmap#readme",
+  "devDependencies": {
+    "stylelint": "^12.0.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
